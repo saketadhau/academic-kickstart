@@ -64,6 +64,11 @@ user_groups = ["Researchers", "Visitors"]
   link = "https://twitter.com/saketadhau29"
 
 [[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/saketadhau/"  
+
+[[social]]
   icon = "google-scholar"
   icon_pack = "ai"
   link = "https://scholar.google.co.in/citations?user=rUQxY7QAAAAJ&hl=en"
@@ -73,10 +78,6 @@ user_groups = ["Researchers", "Visitors"]
 #  icon_pack = "fab"
 #  link = "https://github.com/saketadhau"
 
-[[social]]
-  icon = "linkedin"
-  icon_pack = "fab"
-  link = "https://github.com/saketadhau"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -87,6 +88,4 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Saket Adhau is currently pursuing Master of Technology (M.Tech) degree in Instrumentation and Control Engineering with specialization in Biomedical Instrumentation, at College of Engineering, Pune. He is associated with the  <a href="http://www.coepembeddedlab.com/">Embedded Systems Lab</a> working under the guidance of Dr. D. N. Sonawane.  He is mostly interested in Machine learning approach for the MPC and implementation of  Model Predictive Control on embedded platforms .  He received his Bachelor's degree in Instrumentation and Control Engineering from Government College of Engineering and Research, Avasari, Pune in 2017.
