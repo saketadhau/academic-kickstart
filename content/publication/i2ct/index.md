@@ -1,9 +1,9 @@
 +++
-title = "I2ct"
-date = 2018-09-18T01:12:51+05:30
+title = "Embedded Model Predictive Control on Low-Cost Low-End Microcontroller for Motor Speed Control"
+date = 2018-10-18T01:12:51+05:30
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Adhau S", "Phalke K", "Nalawade A", "Ingole D", "Patil S", "Sonawane D"]
+authors = ["Adhau S", "Dani S", "Ingole D", "Patil S", "Sonawane D"]
 # Publication type.
 # Legend:
 # 0 = Uncategorized
@@ -16,11 +16,11 @@ authors = ["Adhau S", "Phalke K", "Nalawade A", "Ingole D", "Patil S", "Sonawane
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *5<sup>th</sup> Indian Control Conference (ICC)*, IEEE, IIT Delhi, India."
-publication_short = "In *ICC*"
+publication = "In *4<sup>th</sup> 4th International Conference for Convergence in Technology (I2CT)*, IEEE, Mangalore, India."
+publication_short = "In *I2CT*"
 
 # Abstract.
-abstract = "It is well-known that the real-time implementation of MPC is cumbersome because of the huge burden of solving QP problem on-line at each sample time. Due to this, traditionally MPC has been mainly restricted to processes with rather slow dynamics, such as the ones encountered in the oil and gas refineries. However, recent algorithmic advances (such as the explicit MPC) allowed the application of MPC to problems arising in the automotive or power electronics industry where the time scales are in the milli- to microsecond range. This paper focuses on the FPGA implementation of offset-free explicit MPC and its detailed analysis for the position control of PMDC motor. We show the analysis of controller computational complexity in terms of memory, resource utilization, clock and power consumption. Effect of various tuning parameters on the number of regions is also presented with respect to the changing prediction horizon length. Finally, the performance of implemented offset-free explicit MPC is compared with the standard explicit MPC and PI controller for reference-tracking, constraints handling, and disturbance rejection. Results indicate that the performance of offset-free explicit MPC is superior but at the cost of increased memory footprint."
+abstract = "It is very well-known that the implementation of Model Predictive Controller (MPC) on embedded platforms is challenging due to computational complexities associated while solving an optimization problem. Although, there are many efficient embedded implementations existing by now, but for faster, more dynamic and non-linear control applications, no cost effective and memory efficient embedded solutions are present. In this paper, we show the implementation of embedded explicit MPC for a motor speed control application on a low-cost 8 bit PIC 18 series microcontroller from Microchip Technology. The offset-free explicit MPC is designed for reference tracking and constraints and disturbance handling. The developed control law is exported to low-level C code and utilized in hardware-in-the-loop co-simulations. We present the results of memory demand and control performance under various operating scenarios. The presented results show that the developed embedded MPC utilize about 40% of RAM and 92% of ROM for prediction horizon up to 3 samples. The performance of developed MPC is compared with the conventional PI controller. Overall results show that the presented approach is cost effective, portable, and gives better performance than the PI controller."
 
 # Summary. An optional shortened abstract.
 summary = ""
@@ -53,11 +53,11 @@ tags = []
 
 # Links (optional).
 url_pdf = ""
-url_preprint = "https://saketadhau.netlify.com/publication/icc/icc.pdf"
+url_preprint = "https://saketadhau.netlify.com/publication/i2ct/i2ct.pdf"
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = "https://saketadhau.netlify.com/publication/icc/icc-ppt.pdf"
+#url_slides = "https://saketadhau.netlify.com/publication/icc/icc-ppt.pdf"
 url_video = ""
 url_poster = ""
 url_source = ""
@@ -73,7 +73,7 @@ math = true
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  # caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight

@@ -53,7 +53,7 @@ tags = []
 #   slides = "example-slides"
 
 # Links (optional).
-url_pdf = ""
+#url_pdf = ""
 url_preprint = "https://saketadhau.netlify.com/publication/icc/icc.pdf"
 url_code = ""
 url_dataset = ""
@@ -68,13 +68,13 @@ url_source = ""
 # links = [{name = "Custom Link", url = "http://example.org"}]
 
 # Does this page contain LaTeX math? (true/false)
-math = true
+math = false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  #caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
