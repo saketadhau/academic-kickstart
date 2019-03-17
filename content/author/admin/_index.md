@@ -58,10 +58,6 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "fas"
   link = "mailto:saketadhau@live.com"  # For a direct email link, use "mailto:test@example.org".
 
-[[social]]
-  icon = "twitter"
-  icon_pack = "fab"
-  link = "https://twitter.com/saketadhau29"
 
 [[social]]
   icon = "linkedin"
@@ -73,6 +69,11 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "ai"
   link = "https://scholar.google.co.in/citations?user=rUQxY7QAAAAJ&hl=en"
 
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/saketadhau29"
+  
 #[[social]]
 # icon = "github"
 #  icon_pack = "fab"
@@ -88,4 +89,4 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Saket Adhau is currently pursuing Master of Technology (M.Tech) degree in Instrumentation and Control Engineering with specialization in Biomedical Instrumentation, at College of Engineering, Pune. He is associated with the  <a href="http://www.coepembeddedlab.com/">Embedded Systems Lab</a> working under the guidance of Dr. D. N. Sonawane.  He is mostly interested in Machine learning approach for the MPC and implementation of  Model Predictive Control on embedded platforms .  He received his Bachelor's degree in Instrumentation and Control Engineering from Government College of Engineering and Research, Avasari, Pune in 2017.
+I am currently pursuing Master of Technology (M.Tech) degree in Instrumentation and Control Engineering with specialization in Biomedical Instrumentation, at College of Engineering, Pune. I am associated with the  <a href="http://www.coepembeddedlab.com/">Embedded Systems Lab</a> working under the guidance of <a href="http://scholar.google.co.in/citations?user=sKwGRiYAAAAJ&hl=en">Dr. D. N. Sonawane.</a>  My research interests includes Machine learning approach for the MPC and implementation of  Model Predictive Control on embedded platforms .
