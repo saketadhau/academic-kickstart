@@ -66,7 +66,9 @@ address = "Department of Instrumentation and Control, College of Engineering, Pu
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "@saketadhau29", link = "https://twitter.com/Twitter"},
   {icon = "researchgate", icon_pack = "fab", name = "Research Gate ", link = "https://www.researchgate.net/profile/Saket_Adhau"},
-# {icon = "orcid", icon_pack = "fab", name = "Orcid", link = "https://orcid.org/0000-0003-3776-5675"},
+  {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://www.linkedin.com/in/saketadhau/"},
+  {icon = "orcid", icon_pack = "ai", name = "Orcid", link = "https://orcid.org/0000-0003-3776-5675"},
+  {icon = "google-scholar", icon_pack = "ai", name = "Goole Citations", link = "https://scholar.google.co.in/citations?user=rUQxY7QAAAAJ&hl=en"},
   
 #  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
 #  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},

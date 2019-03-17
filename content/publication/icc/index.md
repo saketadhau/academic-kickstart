@@ -21,7 +21,7 @@ publication = "In *5<sup>th</sup> Indian Control Conference (ICC)*, IEEE, IIT De
 publication_short = "In *ICC*"
 
 # Abstract.
-abstract = "Person re-identification is a critical security task for recognizing a person across spatially disjoint sensors. Previous work can be computationally intensive and is mainly based on low-level cues extracted from RGB data and implemented on a PC for a fixed sensor network (such as traditional CCTV). We present a practical and efficient framework for mobile devices (such as smart phones and robots) where high-level semantic soft biometrics are extracted from RGB and depth data. By combining these cues, our approach attempts to provide robustness to noise, illumination, and minor variations in clothing. This mobile approach may be particularly useful for the identification of persons in areas ill-served by fixed sensors or for tasks where the sensor position and direction need to dynamically adapt to a target. Results on the BIWI dataset are preliminary but encouraging. Further evaluation and demonstration of the system will be available on our website."
+abstract = "It is well-known that the real-time implementation of MPC is cumbersome because of the huge burden of solving QP problem on-line at each sample time. Due to this, traditionally MPC has been mainly restricted to processes with rather slow dynamics, such as the ones encountered in the oil and gas refineries. However, recent algorithmic advances (such as the explicit MPC) allowed the application of MPC to problems arising in the automotive or power electronics industry where the time scales are in the milli- to microsecond range. This paper focuses on the FPGA implementation of offset-free explicit MPC and its detailed analysis for the position control of PMDC motor. We show the analysis of controller computational complexity in terms of memory, resource utilization, clock and power consumption. Effect of various tuning parameters on the number of regions is also presented with respect to the changing prediction horizon length. Finally, the performance of implemented offset-free explicit MPC is compared with the standard explicit MPC and PI controller for reference-tracking, constraints handling, and disturbance rejection. Results indicate that the performance of offset-free explicit MPC is superior but at the cost of increased memory footprint."
 
 # Summary. An optional shortened abstract.
 summary = ""
@@ -53,8 +53,8 @@ tags = []
 #   slides = "example-slides"
 
 # Links (optional).
-url_pdf = "https://www.researchgate.net/publication/327861184_Implementation_and_Analysis_of_Offset-Free_Explicit_Model_Predictive_Controller_on_FPGA"
-url_preprint = ""
+url_pdf = ""
+url_preprint = "https://saketadhau.netlify.com/publication/icc/icc.pdf"
 url_code = ""
 url_dataset = ""
 url_project = ""
