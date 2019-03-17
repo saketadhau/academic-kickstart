@@ -1,9 +1,10 @@
 +++
 title = "Implementation and Analysis of Offset-Free Explicit Model Predictive Controller on FPGA"
-date = 2019-01-18T00:08:36+05:30
+date = 2019-03-18T00:08:36+05:30
+
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Adhau S", "Phalke K", "Nalawade A", "Ingole D", "Patil S", "Sonawane D"]
+authors = ["GA Cushen"]
 
 # Publication type.
 # Legend:
@@ -17,8 +18,8 @@ authors = ["Adhau S", "Phalke K", "Nalawade A", "Ingole D", "Patil S", "Sonawane
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *5<sup>th</sup> Indian Control Conference (ICC)*, IEEE, IIT Delhi, India."
-publication_short = "In *ICC*"
+publication = "In *Signal Image Technology & Internet Systems (SITIS)*, IEEE."
+publication_short = "In *SITIS*"
 
 # Abstract.
 abstract = "Person re-identification is a critical security task for recognizing a person across spatially disjoint sensors. Previous work can be computationally intensive and is mainly based on low-level cues extracted from RGB data and implemented on a PC for a fixed sensor network (such as traditional CCTV). We present a practical and efficient framework for mobile devices (such as smart phones and robots) where high-level semantic soft biometrics are extracted from RGB and depth data. By combining these cues, our approach attempts to provide robustness to noise, illumination, and minor variations in clothing. This mobile approach may be particularly useful for the identification of persons in areas ill-served by fixed sensors or for tasks where the sensor position and direction need to dynamically adapt to a target. Results on the BIWI dataset are preliminary but encouraging. Further evaluation and demonstration of the system will be available on our website."
@@ -42,7 +43,7 @@ tags = []
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-#   projects = []
+projects = []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -50,15 +51,15 @@ tags = []
 #   E.g. `slides = "example-slides"` references 
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-   slides = "icc-ppt.pdf"
+# slides = "example-slides"
 
 # Links (optional).
-# url_pdf = ""
-url_preprint = "https://www.researchgate.net/publication/327861184_Implementation_and_Analysis_of_Offset-Free_Explicit_Model_Predictive_Controller_on_FPGA"
+url_pdf = "http://arxiv.org/pdf/1512.04133v1"
+url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = "content/publications/icc/icc-ppt.pdf"
+url_slides = "academic-kickstart/content/slides/icc-ppt.pdf"
 url_video = ""
 url_poster = ""
 url_source = ""
