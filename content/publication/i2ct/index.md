@@ -16,7 +16,7 @@ authors = ["Adhau S", "Dani S", "Ingole D", "Patil S", "Sonawane D"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *4<sup>th</sup> 4th International Conference for Convergence in Technology (I2CT)*, IEEE, Mangalore, India."
+publication = "In *4<sup>th</sup> International Conference for Convergence in Technology (I2CT)*, IEEE, Mangalore, India."
 publication_short = "In *I2CT*"
 
 # Abstract.
