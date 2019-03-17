@@ -52,7 +52,7 @@ tags = []
 #   slides = "example-slides"
 
 # Links (optional).
-url_pdf = ""
+#url_pdf = ""
 url_preprint = "https://saketadhau.netlify.com/publication/i2ct/i2ct.pdf"
 url_code = ""
 url_dataset = ""
