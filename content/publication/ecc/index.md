@@ -1,6 +1,6 @@
 +++
 title = "Implementation and Analysis of Nonlinear Model Predictive Controller on Embedded Systems for Real-Time Applications"
-date = 2019-03-17T23:44:37+05:30
+date = 2019-02-17T23:44:37+05:30
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Adhau S", "Patil S", "Ingole D", "Sonawane D"]
@@ -17,7 +17,7 @@ authors = ["Adhau S", "Patil S", "Ingole D", "Sonawane D"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *European Control Conference (ECC'19)*, IFAC and IEEE."
+publication = "In *European Control Conference (ECC'19)*, IFAC and IEEE, Naples, Italy."
 publication_short = "In ECC'19"
 
 # Abstract.
