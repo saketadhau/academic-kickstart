@@ -89,4 +89,4 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-I am currently pursuing Master of Technology (M.Tech) degree in Instrumentation and Control Engineering with specialization in Biomedical Instrumentation, at College of Engineering, Pune. I am associated with the  <a href="http://www.coepembeddedlab.com/">Embedded Systems Lab</a> working under the guidance of <a href="http://scholar.google.co.in/citations?user=sKwGRiYAAAAJ&hl=en">Dr. D. N. Sonawane.</a>  My research interests includes Machine learning approach for the MPC and implementation of  Model Predictive Control on embedded platforms .
+Currently pursuing Master of Technology (M.Tech) degree in Instrumentation and Control Engineering with specialization in Biomedical Instrumentation, at College of Engineering, Pune. I am associated with the  <a href="http://www.coepembeddedlab.com/">Embedded Systems Lab</a> working under the guidance of <a href="http://scholar.google.co.in/citations?user=sKwGRiYAAAAJ&hl=en">Dr. D. N. Sonawane.</a>  My research interests includes Machine learning approach for the MPC and implementation of  Model Predictive Control on embedded platforms .
