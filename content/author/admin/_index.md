@@ -64,10 +64,10 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "fab"
   link = "https://www.linkedin.com/in/saketadhau/"  
 
-[[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.co.in/citations?user=rUQxY7QAAAAJ&hl=en"
+#[[social]]
+#  icon = "google-scholar"
+#  icon_pack = "ai"
+#  link = "https://scholar.google.co.in/citations?user=rUQxY7QAAAAJ&hl=en"
 
 [[social]]
   icon = "twitter"

@@ -1,0 +1,308 @@
+\documentclass[11pt]{resume}
+\usepackage{ragged2e}
+\usepackage{calc}
+\usepackage{comment}
+\usepackage{wasysym}
+\usepackage{array}
+\usepackage{tabu}
+\usepackage{fontawesome}
+\makeatletter
+\usepackage{amssymb}
+\usepackage[bottom]{footmisc}
+\usepackage{relsize}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+%\usepackage[slovak]{babel}
+\usepackage{marvosym}
+% Software
+\newcommand{\mt}{\textsc{MATLAB}}
+\newcommand\cpp{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\relsize{-3}{\textbf{++}}}}
+\newcommand\cp{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\relsize{-3}{\textbf{}}}}
+\newlength{\bibhang}
+\setlength{\bibhang}{1em} %1em}
+\newlength{\bibsep}
+{\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
+\newenvironment{bibsection}%
+{\begin{enumerate}{}{%
+			%        {\begin{list}{}{%
+			\setlength{\leftmargin}{\bibhang}%
+			\setlength{\itemindent}{-\leftmargin}%
+			\setlength{\itemsep}{\bibsep}%
+			\setlength{\parsep}{\z@}%
+			\setlength{\partopsep}{0pt}%
+			\setlength{\topsep}{0pt}}}
+	{\end{enumerate}\vspace{-.6\baselineskip}}
+\makeatother
+\reversemarginpar
+\usepackage[paper=letterpaper,
+%includefoot, % Uncomment to put page number above margin
+marginparwidth=0.05in,     % Length of section titles
+marginparsep=.05in,       % Space between titles and text
+margin=0.9in,               % 1 inch margins
+includemp]{geometry}
+\setlength{\parindent}{0in}
+
+\usepackage[shortlabels]{enumitem}
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+{0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+	\parbox{4in}{\, \hfill %
+		\arabic{page} of \protect\pageref*{LastPage} % +LP
+		%                    \arabic{page}                               % -LP
+		\hfill \,}}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+	linkcolor=darkblue,urlcolor=darkblue,
+	anchorcolor=darkblue,citecolor=darkblue}
+
+\newcommand{\makeheading}[2][]%
+{\hspace*{-\marginparsep minus \marginparwidth}%
+	\begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+		{\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
+		\rule{\columnwidth}{0pt}%
+\end{minipage}}
+
+% The section headings
+%
+% Usage: \section{section name}
+\renewcommand{\section}[1]{\pagebreak[3]%
+	\hyphenpenalty=1000%
+	\vspace{1.3\baselineskip}%
+	\phantomsection\addcontentsline{toc}{section}{#1}%
+	\noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\raggedright 
+	#1}}}%
+	\vspace{-\baselineskip}\par}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+{\begin{itemize}[#1,leftmargin=*]}{\end{itemize}%
+	\vspace{-.5\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+{\begin{list}{#1}{%
+			\setlength{\partopsep}{0pt}%
+			\setlength{\topsep}{0pt}}}
+	{\end{list}\vspace{-.5\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+{\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
+	{\end{itemize}}
+
+% An environment IDENTICAL to innerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{loneinnerlist}[1][\enskip\textbullet]%
+{\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
+	{\end{itemize}\vspace{-.6\baselineskip}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[3]}
+\newcommand{\halfblankline}{\quad\vspace{-0.5\baselineskip}\pagebreak[3]}
+
+% Uses hyperref to link DOI
+\newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
+\newcommand\doi[1]{doi:\doilink{#1}}
+
+% For \url{SOME_URL}, links SOME_URL to the url SOME_URL
+\providecommand*\url[1]{\href{#1}{#1}}
+% Same as above, but pretty-prints SOME_URL in teletype fixed-width font
+\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
+
+% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
+\providecommand*\email[1]{\href{mailto:#1}{#1}}
+\providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+		\TeX}}
+\providecommand\Matlab{\textsc{Matlab}}
+
+%-------------------------End Helper Commands----------------------------------%
+
+%-------------------------Begin CV Document------------------------------------%
+\begin{document}
+	\makeheading{    
+		\begin{center}
+			\LARGE{SAKET ADHAU \\ \small{Postgraduate Student - Control Systems}} 
+		\end{center}
+		\newlength{\rcollength}\setlength{\rcollength}{2.35in}%
+\begin{center}
+	\normalsize{\textnormal{
+			\Letter~Department of Instrumentation and Control,\\ College of Engineering, Pune, India\\				
+			\href{https://saketadhau.netlify.com/} 
+			{\Mundus~saketadhau.netlify.com}
+			\href{https://www.linkedin.com/in/saketadhau/} 
+			{\faLinkedinSquare~saketadhau}  \\
+			\Email~{\email{adhauss17.instru@coep.ac.in}}
+			\Mobilefone~(+91) 9421 837 806}}\vspace{-8mm}
+\end{center}
+	}\vspace{-2mm}
+
+%------------------------------------------------------------------------------%.
+\begin{rSection}{Education}
+{\bf{Master of Technology, Instrumentation and Control} \hfill June 2019}
+\begin{outerlist}
+	\item  \href{http://www.coep.org.in/} {College of Engineering Pune, India}
+	\begin{innerlist}
+		\item[--] CGPA: $ 7.89 $
+		\item[--] Thesis Title: \textit{Learning Based Model Predictive Control}
+		\item[--] Supervisor: \href{http://www.coep.org.in/mycoep/dnsinstrucoepacin} {Prof. Dayaram Sonawane}
+%		\item[--] yet to come	
+%		\item[--] Implementation of LMPC and NMPC on ARM and FPGA
+	\end{innerlist}
+\end{outerlist}
+\vspace{.1in}
+\textbf{\href{https://saketadhau.netlify.com/data/be-degree.pdf} {Bachelor of Engineering, Instrumentation and Control}} \hfill May 2017
+\begin{outerlist}
+	\item  \href{http://www.unipune.ac.in/} {University of Pune, India}	\& \href{http://www.gcoeara.ac.in/} {Government College of Engineering and Research, Avasari, Pune.}
+	\begin{innerlist}
+		\item[--] Mention: \href{https://saketadhau.netlify.com/data/be-marks.pdf} {First Class with Distinction} $ \vert $ Percentage: \href{https://saketadhau.netlify.com/data/be-marks.pdf} {$69.67$\%}
+		\item[--] Project Title: \textit{System Identification and PID Control of PMDC Motor using \mt~and LabView}
+		\item[--] Supervisor: \href{http://www.gcoeara.ac.in/Instrumentation-control-about-us.php} {Dr. M. R. Bongulwar}
+	\end{innerlist}
+\end{outerlist}
+\end{rSection}
+\vspace{.05in}
+%------------------------------------------------------------------------------%
+%------------------------------------------------------------------------------%
+\begin{rSection}{Publications}
+	\textbf{Articles in international conferences}
+	\begin{outerlist}
+	\item Adhau S., Patil S., Ingole D., and Sonawane D., ``\href{https://www.researchgate.net/publication/331225239_Implementation_and_Analysis_of_Nonlinear_Model_Predictive_Controller_on_Embedded_Systems_for_Real-Time_Applications}{Implementation and Analysis of Nonlinear Model Predictive Controller on Embedded Systems for Real-Time Applications}'', \textit{accepted for publication in Proceedings of the $ 17^{th} $ European Control Conference (ECC'$19 $)}, IFAC and IEEE, Naples, Italy, $ 2019 $.
+
+	\item Adhau S., Phalke K., Nalawade A., Ingole D., Patil S., Sonawane D., ``\href{https://saketadhau.netlify.com/publication/icc/icc.pdf}{Implementation and Analysis of Offset-Free Explicit Model Predictive Controller on FPGA}'', \textit{in the Proceedings of $ 5^{th} $ Indian Control Conference}, IEEE, Delhi, India, $ 2018 $.
+
+	\item Adhau S., Dani S., Ingole D., and Sonawane D., ``\href{https://saketadhau.netlify.com/publication/i2ct/i2ct.pdf}{Embedded Model Predictive Control on Low-Cost Low-End Microcontroller for Motor Speed Control}'', \textit{in the Proceedings of International Conference for Convergence in Technology (I$ 2 $CT)}, IEEE, Mangalore, India, $ 2018 $.	
+	\end{outerlist}
+\end{rSection}	
+%\vspace{-.05in}
+%------------------------------------------------------------------------------%
+\begin{rSection}{Work Experience}
+%	\vspace{-0mm}
+{\textbf{Bosch Chassis Systems India Pvt. Limited, Chakan, Pune.} \hfill July 2015}
+\begin{outerlist}
+	\item  Worked with the TeF department towards maintenance and predictive safety standards.
+	\item Carried out analysis of Mean Time To Repair (MTTR) and Mean Time Between Repair (MTBR) on the assembly lines.
+\end{outerlist}
+\end{rSection}	
+\vspace{2in}
+%------------------------------------------------------------------------------%
+\begin{rSection}{Awards and Funding}
+%\vspace{-.15in}
+\begin{outerlist}
+	\item Project accepted for presentation in \mt ~Expo'19 \hfill $ 2019 $
+%	\item European Union's (EU) Marie Curie ESR fellowship \hfill 2014 
+	\item Xilinx University Program  -- Development board and Software \hfill $ 2018 $
+%	\item University rector's scholarship for Support of Young Researchers \hfill 2015
+%	\item Best paper award at \textit{Third International Conference on Control, \\Communication and Power Engineering}, Springer, Bangalore, India \hfill 2012
+\end{outerlist}
+\end{rSection}
+%------------------------------------------------------------------------------%
+\begin{rSection}{Technical Expertise}
+%\vspace{-.15in}
+\begin{outerlist}
+%	\item Developer of MATLAB-based \textit{universal number toolbox - \href{https://bitbucket.org/kvasnica/munum}{munum}}
+%	\item Developer of FPGA-based universal number toolbox
+    \item Programming languages: \mt/Simulink, \cp, \cpp, HTML, etc.
+	\item Tools: Vivado, MPLAB,  HDL coder, Visual Studio, LabView etc.
+	\item Toolboxes: System identification toolbox, MPT, Protoip, ACADO Toolkit, CasADi, FORCES, etc.
+	\item Embedded system design using microcontrollers, FPGAs, and PLCs
+	\item Writing, presentation, and drawing: \LaTeX, TikZ, Inkscape, Microsoft office suite
+	\item Version control tools: GitHub, GitLab, Bitbucket.
+%	\item Project management tool: Trello
+\end{outerlist}
+\end{rSection}
+%\vspace{-.1275in}
+
+%------------------------------------------------------------------------------%
+\begin{rSection}{Research Interests}
+%	\vspace{-.15in}
+%	Modelling, model predictive control, optimization, embedded systems, and control of large-scale dynamical systems  \\\\
+	\begin{outerlist}       
+	    \item Learning based methods for MPC
+        \item Model predictive control
+        \item Optimization
+		\item Embedded systems
+	\end{outerlist} 
+\end{rSection}
+%	\vspace{-.1275in} 
+%------------------------------------------------------------------------------%
+\begin{rSection}{Training}
+%	\vspace{-.15in}
+	\begin{outerlist}
+		\item Winter School on Optimization and Optimal Control - A Data-based Approach at COEP, India \hfill $ 2018 $
+		
+		\item Certificate course on embedded systems design, COEP, India \hfill $ 2018 $
+		
+		\item Certificate course on Ethical hacking, COEP, India \hfill $ 2016 $
+		\item Certificate course on Matlab and Simulink, COEP, India \hfill $ 2014 $
+		
+	\end{outerlist}
+\end{rSection}
+%\vspace{-.15in}
+%------------------------------------------------------------------------------%
+\begin{rSection}{Personal Details}
+%	\vspace{-.1275in}
+	\begin{outerlist}
+		\item Full Name: Saket Sunil Adhau
+		\item Citizenship: Indian
+		\item Date of Birth: 29 May 1995 
+	\end{outerlist}
+\end{rSection}
+%\vspace{-.1275in}
+%------------------------------------------------------------------------------%
+
+
+\begin{rSection}{Referees}
+%\vspace{-.09in}
+
+\end{rSection}
+%\vspace{8cm}
+%Date: \hspace{9cm} Deepak Ingole
+\begin{tabu} to 1\textwidth {  X[l]  X[l]  }
+
+	\href{https://scholar.google.co.in/citations?user=sKwGRiYAAAAJ}{Prof. Dayaram Sonawane}  &  \href{https://scholar.google.co.in/citations?user=FjehteAAAAAJ}{Dr. Deepak Ingole} \\
+
+	Master's supervisor   & Postdoctoral Researcher  \\
+	Department of Instrumentation and Control,   & \href{https://www.universite-lyon.fr/}{University of Lyon}, \href{https://www.ifsttar.fr/en/welcome/}{IFSTTAR}, \href{https://www.entpe.fr/en}{ENTPE} \\ 
+	\href{http://www.coep.org.in/}{College of Engineering, Pune}, India - $ 411005 $ &  Vaulx-en-Velin, France - $ 69120 $  \\
+	\Email{~\email{dns.instru@coep.ac.in}}   & 	\Email{~\email{deepak.ingole@ifsttar.fr}} \\
+	\href{http://www.coep.org.in/mycoep/dnsinstrucoepacin} 
+	{\Mundus~Homepage} & 	\href{ingoledeepak.wordpress.com} 
+	{\Mundus~Homepage}  \\
+
+\end{tabu}
+\end{document}
+%%-----------------------------------------------------------------------------%
+%\section{Career \hspace{1mm} Summary}
+%\begin{outerlist}
+%	\item Pursuing PhD in Process Control at Slovak University of Technology in 
+%	Bratislava, Slovakia
+%	\item 
+%	\item Results-oriented professional with one year and three months of 
+%	research-related experience in Mathematical modelling, Model Based 
+%Development 
+%	and Embedded Systems 
+%	
+%	\item Extensive experience in \textsc{matlab}, Simulink, Code Generator, 
+%System Identification Tool Box, Model Predictive Control (MPC) and PID Tool 
+%Box 
+%of \textsc{matlab}
+%	
+%	\item Expertise in developing Mathematical Models of Linear and Nonlinear 
+%control systems and its control using Classical and Advance Control Algorithms 
+%using \textsc{matlab} Coding
+%	
+%	\item Expertise in Verilog, VHDL, Hardware Co-Simulation, System Generator, 
+%Core Generator and IP Core development in \textsc{fpga}
+%	
+%	\item Experience accompanied by M. Tech program and research projects 
+%\end{outerlist}
