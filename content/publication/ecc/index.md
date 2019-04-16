@@ -46,7 +46,7 @@ tags = []
 
 # Links (optional).
 #url_pdf = ""
-#url_preprint = ""
+url_preprint = "https://saketadhau.netlify.com/publication/ecc/ecc.pdf"
 #url_code = "#"
 #url_dataset = "#"
 #url_project = ""
