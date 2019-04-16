@@ -23,6 +23,7 @@ email = "saketadhau@live.com"
 
 # List (academic) interests or hobbies
 interests = [
+  "Deep Neural Networks for MPC"
   "Model Predictive Control",
   "Optimization",
   "Embedded Implementation"
