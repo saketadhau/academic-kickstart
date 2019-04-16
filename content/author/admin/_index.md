@@ -23,10 +23,9 @@ email = "saketadhau@live.com"
 
 # List (academic) interests or hobbies
 interests = [
-  "Deep Neural Networks for MPC,"
+  "Deep Neural Networks for MPC",
   "Model Predictive Control",
-  "Optimization",
-  "Embedded Implementation"
+  "Optimization"
 ]
 
 # Organizational groups that you belong to (for People widget)
