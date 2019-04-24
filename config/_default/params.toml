@@ -50,9 +50,9 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "saketadhau@live.com"
-phone = "+91-9421837806"
-address = "Department of Instrumentation and Control, College of Engineering, Pune."
+# email = "saketadhau@live.com"
+# phone = "+91-9421837806"
+# address = "Department of Instrumentation and Control, College of Engineering, Pune."
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 #office_hours = """Monday 10:00 to 13:00<br>
@@ -64,11 +64,11 @@ address = "Department of Instrumentation and Control, College of Engineering, Pu
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "@saketadhau29", link = "https://twitter.com/saketadhau29"},
-  {icon = "researchgate", icon_pack = "fab", name = "Research Gate ", link = "https://www.researchgate.net/profile/Saket_Adhau"},
-  {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://www.linkedin.com/in/saketadhau/"},
-  {icon = "orcid", icon_pack = "ai", name = "Orcid", link = "https://orcid.org/0000-0003-3776-5675"},
-  {icon = "google-scholar", icon_pack = "ai", name = "Google Citations", link = "https://scholar.google.co.in/citations?user=rUQxY7QAAAAJ&hl=en"},
+#  {icon = "twitter", icon_pack = "fab", name = "@saketadhau29", link = "https://twitter.com/saketadhau29"},
+#  {icon = "researchgate", icon_pack = "fab", name = "Research Gate ", link = "https://www.researchgate.net/profile/Saket_Adhau"},
+#  {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://www.linkedin.com/in/saketadhau/"},
+#  {icon = "orcid", icon_pack = "ai", name = "Orcid", link = "https://orcid.org/0000-0003-3776-5675"},
+#  {icon = "google-scholar", icon_pack = "ai", name = "Google Citations", link = "https://scholar.google.co.in/citations?user=rUQxY7QAAAAJ&hl=en"},
   
 #  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
 #  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
@@ -125,7 +125,7 @@ comment_count = true
 section_pager = false
 
 # Enable in-built social sharing buttons? (true/false)
-sharing = true
+sharing = false
 
 # Configuration of publication pages.
 [publications]

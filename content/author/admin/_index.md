@@ -69,10 +69,15 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "ai"
   link = "https://scholar.google.co.in/citations?user=rUQxY7QAAAAJ&hl=en"
 
-[[social]]
+ [[social]]
+  icon = "researchgate"
+  icon_pack = "fab"
+  link = "https://www.researchgate.net/profile/Saket_Adhau" 
+
+ [[social]]
   icon = "twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/saketadhau29"
+  link = "https://twitter.com/saketadhau29" 
   
 #[[social]]
 # icon = "github"
