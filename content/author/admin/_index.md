@@ -16,7 +16,7 @@ role = "Postgraduate Student - Control Systems"
 organizations = [ { name = "College of Engineering, Pune", url = "http://www.coep.org.in/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include Model based control stratergies, optimization, embedded implementation."
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "saketadhau@live.com"
