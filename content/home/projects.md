@@ -24,13 +24,13 @@ subtitle = ""
      name = "All"
      tag = "*"
   
- #  [[content.filter_button]]
- #    name = "Deep Learning"
- #    tag = "Deep Learning"
+  [[content.filter_button]]
+    name = "Deep Learning"
+    tag = "Deep Learning"
   
- #  [[content.filter_button]]
- #    name = NMPC"
-#     tag = "NMPC"
+  [[content.filter_button]]
+    name = "NMPC"
+     tag = "NMPC"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

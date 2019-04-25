@@ -10,7 +10,7 @@ summary = "Real-Time Implementation of NMPC on ARM Cortex M3"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Deep Learning"]
+tags = ["NMPC"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
