@@ -94,7 +94,7 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-I am a 23-year old passionate Controls engineer with a high interest and focus on embedded devices and predictive control systems.
+I am a Controls engineer with a high interest and focus on embedded devices and predictive control systems.
 
 I am pursuing a Master’s degree within Instrumentation and Control Engineering from College of Engineering, Pune where I am currently working on my thesis, Learning Based Model Predicitve Control. I am associated with the  <a href="http://www.coepembeddedlab.com/">Embedded Systems Lab</a> working under the guidance of <a href="http://scholar.google.co.in/citations?user=sKwGRiYAAAAJ&hl=en">Dr. D. N. Sonawane.</a> 
 
@@ -102,5 +102,5 @@ My main interests can be summarized as embedded devices and control systems, eg.
 
 My passion is to work in the R&D phase of projects, to lead the research and development teams. Even though this is my passion, my skillset allows me to take part in the full development cycle from prototype to finished product. 
 
-I always work focused and reliable, either self-sustained or in smaller groups and I have a curious eye for spotting bugs, errors, mistakes and flaws and a general attention to details. I am a careful planner and I set realistic but ambitious goals to myself, aiming for the continuous success with these goals. My curious eye and attention to details is not limited to technical parts such as programming, but also includes written communication such as graphical design, user interface, homepage content, datasheets etc. These personal characteristics allow me to feel comfortable in the role as a leader.
+I always work focused and reliable, either self-sustained or in smaller groups and I have a curious eye for spotting bugs, errors,mistakes and flaws and a general attention to details. I am a careful planner and I set realistic but ambitious goals to myself, aiming for the continuous success with these goals. My curious eye and attention to details is not limited to technical parts such as programming, but also includes written communication such as graphical design, user interface, homepage content, datasheets etc. These personal characteristics allow me to feel comfortable in the role as a leader.
 
