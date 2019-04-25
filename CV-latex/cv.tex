@@ -1,9 +1,16 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Latex File for CV and Resume
+% Last edit 25/03/2019 
+% Saket Adhau
+% saketadhau@live.com
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[11pt]{resume}
 \usepackage{ragged2e}
 \usepackage{calc}
 \usepackage{comment}
 \usepackage{wasysym}
 \usepackage{array}
+\usepackage{marvosym}
 \usepackage{tabu}
 \usepackage{fontawesome}
 \makeatletter
@@ -12,33 +19,30 @@
 \usepackage{relsize}
 \usepackage[utf8]{inputenc}
 \usepackage{multicol}
-%\usepackage[slovak]{babel}
 \usepackage{marvosym}
 % Software
 \newcommand{\mt}{\textsc{MATLAB}}
 \newcommand\cpp{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\relsize{-3}{\textbf{++}}}}
 \newcommand\cp{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\relsize{-3}{\textbf{}}}}
 \newlength{\bibhang}
-\setlength{\bibhang}{1em} %1em}
+\setlength{\bibhang}{1em} 
 \newlength{\bibsep}
 {\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
-\newenvironment{bibsection}%
-{\begin{enumerate}{}{%
-			%        {\begin{list}{}{%
-			\setlength{\leftmargin}{\bibhang}%
-			\setlength{\itemindent}{-\leftmargin}%
-			\setlength{\itemsep}{\bibsep}%
-			\setlength{\parsep}{\z@}%
-			\setlength{\partopsep}{0pt}%
+\newenvironment{bibsection}
+{\begin{enumerate}{}{
+			\setlength{\leftmargin}{\bibhang}
+			\setlength{\itemindent}{-\leftmargin}
+			\setlength{\itemsep}{\bibsep}
+			\setlength{\parsep}{\z@}
+			\setlength{\partopsep}{0pt}
 			\setlength{\topsep}{0pt}}}
 	{\end{enumerate}\vspace{-.6\baselineskip}}
 \makeatother
 \reversemarginpar
 \usepackage[paper=letterpaper,
-%includefoot, % Uncomment to put page number above margin
-marginparwidth=0.05in,     % Length of section titles
-marginparsep=.05in,       % Space between titles and text
-margin=0.9in,               % 1 inch margins
+marginparwidth=0.05in,    
+marginparsep=.05in,    
+margin=0.9in,             
 includemp]{geometry}
 \setlength{\parindent}{0in}
 
@@ -50,10 +54,9 @@ includemp]{geometry}
 \newlength{\footpageshift}
 \setlength{\footpageshift}
 {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
-\lfoot{\hspace{\footpageshift}%
-	\parbox{4in}{\, \hfill %
+\lfoot{\hspace{\footpageshift}
+	\parbox{4in}{\, \hfill 
 		\arabic{page} of \protect\pageref*{LastPage} % +LP
-		%                    \arabic{page}                               % -LP
 		\hfill \,}}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{hyperref}
@@ -62,11 +65,11 @@ includemp]{geometry}
 	linkcolor=darkblue,urlcolor=darkblue,
 	anchorcolor=darkblue,citecolor=darkblue}
 
-\newcommand{\makeheading}[2][]%
-{\hspace*{-\marginparsep minus \marginparwidth}%
-	\begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
-		{\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
-		\rule{\columnwidth}{0pt}%
+\newcommand{\makeheading}[2][]
+{\hspace*{-\marginparsep minus \marginparwidth}
+	\begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}
+		{\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]
+		\rule{\columnwidth}{0pt}
 \end{minipage}}
 
 % The section headings
@@ -77,7 +80,7 @@ includemp]{geometry}
 	\vspace{1.3\baselineskip}%
 	\phantomsection\addcontentsline{toc}{section}{#1}%
 	\noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\raggedright 
-	#1}}}%
+	#1}}}
 	\vspace{-\baselineskip}\par}
 
 % An itemize-style list with lots of space between items
@@ -114,12 +117,12 @@ includemp]{geometry}
 \newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
 \newcommand\doi[1]{doi:\doilink{#1}}
 
-% For \url{SOME_URL}, links SOME_URL to the url SOME_URL
+
 \providecommand*\url[1]{\href{#1}{#1}}
-% Same as above, but pretty-prints SOME_URL in teletype fixed-width font
+
 \renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
 
-% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
+
 \providecommand*\email[1]{\href{mailto:#1}{#1}}
 \providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
 		\TeX}}
@@ -131,123 +134,227 @@ includemp]{geometry}
 \begin{document}
 	\makeheading{    
 		\begin{center}
-			\LARGE{SAKET ADHAU \\ \small{Postgraduate Student - Control Systems}} 
+			\LARGE{SAKET ADHAU \\ \small{Master of Technology - Instrumentation and Control}} 
 		\end{center}
 		\newlength{\rcollength}\setlength{\rcollength}{2.35in}%
 \begin{center}
 	\normalsize{\textnormal{
-			\Letter~Department of Instrumentation and Control,\\ College of Engineering, Pune, India\\				
+			\Letter~Department of Instrumentation and Control,\\ College of Engineering, Pune - 411005, INDIA\\				
 			\href{https://saketadhau.netlify.com/} 
 			{\Mundus~saketadhau.netlify.com}
 			\href{https://www.linkedin.com/in/saketadhau/} 
 			{\faLinkedinSquare~saketadhau}  \\
 			\Email~{\email{adhauss17.instru@coep.ac.in}}
-			\Mobilefone~(+91) 9421 837 806}}\vspace{-8mm}
+			\Mobilefone~(+91) 9421837806}}\vspace{-8mm}
 \end{center}
-	}\vspace{-2mm}
+	}\vspace{2mm}
 
 %------------------------------------------------------------------------------%.
 \begin{rSection}{Education}
-{\bf{Master of Technology, Instrumentation and Control} \hfill June 2019}
+{\bf{Master of Technology, Instrumentation and Control} \hfill {\textit{Aug'17--June'19}}}
 \begin{outerlist}
 	\item  \href{http://www.coep.org.in/} {College of Engineering Pune, India}
 	\begin{innerlist}
 		\item[--] CGPA: $ 7.89 $
 		\item[--] Thesis Title: \textit{Learning Based Model Predictive Control}
 		\item[--] Supervisor: \href{http://www.coep.org.in/mycoep/dnsinstrucoepacin} {Prof. Dayaram Sonawane}
-%		\item[--] yet to come	
-%		\item[--] Implementation of LMPC and NMPC on ARM and FPGA
 	\end{innerlist}
 \end{outerlist}
 \vspace{.1in}
-\textbf{\href{https://saketadhau.netlify.com/data/be-degree.pdf} {Bachelor of Engineering, Instrumentation and Control}} \hfill May 2017
+\textbf{{Bachelor of Engineering, Instrumentation and Control}} \hfill \textit{\textbf{Aug'13--June'17}}
 \begin{outerlist}
-	\item  \href{http://www.unipune.ac.in/} {University of Pune, India}	\& \href{http://www.gcoeara.ac.in/} {Government College of Engineering and Research, Avasari, Pune.}
+	\item \href{http://www.gcoeara.ac.in/} {Government College of Engineering and Research, Avasari Kh., Pune.}
+	\item  \href{http://www.unipune.ac.in/} {University of Pune, India}	
 	\begin{innerlist}
-		\item[--] Mention: \href{https://saketadhau.netlify.com/data/be-marks.pdf} {First Class with Distinction} $ \vert $ Percentage: \href{https://saketadhau.netlify.com/data/be-marks.pdf} {$69.67$\%}
-		\item[--] Project Title: \textit{System Identification and PID Control of PMDC Motor using \mt~and LabView}
-		\item[--] Supervisor: \href{http://www.gcoeara.ac.in/Instrumentation-control-about-us.php} {Dr. M. R. Bongulwar}
+		\item[--] Mention:  First Class with Distinction $ \vert $ Percentage: $69.67$
+		\item[--] Project Title: \textit{System Identification and PID Control of PMDC Motor using \mt~and LabVIEW}
+		\item[--] Supervisor: \href{http://www.gcoeara.ac.in/Instrumentation-control-about-us.php} {Dr. Milind Bongulwar}
 	\end{innerlist}
 \end{outerlist}
 \end{rSection}
-\vspace{.05in}
-%------------------------------------------------------------------------------%
+\vspace{5mm}
 %------------------------------------------------------------------------------%
 \begin{rSection}{Publications}
-	\textbf{Articles in international conferences}
+	\textbf{Articles in international conferences}\\
+	\textbf{2019}
 	\begin{outerlist}
-	\item Adhau S., Patil S., Ingole D., and Sonawane D., ``\href{https://www.researchgate.net/publication/331225239_Implementation_and_Analysis_of_Nonlinear_Model_Predictive_Controller_on_Embedded_Systems_for_Real-Time_Applications}{Implementation and Analysis of Nonlinear Model Predictive Controller on Embedded Systems for Real-Time Applications}'', \textit{accepted for publication in Proceedings of the $ 17^{th} $ European Control Conference (ECC'$19 $)}, IFAC and IEEE, Naples, Italy, $ 2019 $.
+	\item \textbf{Adhau S.}, Patil S., Ingole D., and Sonawane D., ``\href{https://www.researchgate.net/publication/331225239_Implementation_and_Analysis_of_Nonlinear_Model_Predictive_Controller_on_Embedded_Systems_for_Real-Time_Applications}{Implementation and Analysis of Nonlinear Model Predictive Controller on Embedded Systems for Real-Time Applications}'', \textit{accepted for publication in Proceedings of the $ 17^{th} $ European Control Conference (ECC'$19 $)}, IFAC and IEEE, Naples, Italy, $ 2019 $.
+	\end{outerlist}
 
-	\item Adhau S., Phalke K., Nalawade A., Ingole D., Patil S., Sonawane D., ``\href{https://saketadhau.netlify.com/publication/icc/icc.pdf}{Implementation and Analysis of Offset-Free Explicit Model Predictive Controller on FPGA}'', \textit{in the Proceedings of $ 5^{th} $ Indian Control Conference}, IEEE, Delhi, India, $ 2018 $.
+	\textbf{2018}
+	\begin{outerlist}
+	\item \textbf{Adhau S.}, Phalke K., Nalawade A., Ingole D., Patil S., Sonawane D., ``\href{https://saketadhau.netlify.com/publication/icc/icc.pdf}{Implementation and Analysis of Offset-Free Explicit Model Predictive Controller on FPGA}'', \textit{in the Proceedings of $ 5^{th} $ Indian Control Conference}, IEEE, Delhi, India, $ 2018 $.
 
-	\item Adhau S., Dani S., Ingole D., and Sonawane D., ``\href{https://saketadhau.netlify.com/publication/i2ct/i2ct.pdf}{Embedded Model Predictive Control on Low-Cost Low-End Microcontroller for Motor Speed Control}'', \textit{in the Proceedings of International Conference for Convergence in Technology (I$ 2 $CT)}, IEEE, Mangalore, India, $ 2018 $.	
+	\item \textbf{Adhau S.}, Dani S., Ingole D., and Sonawane D., ``\href{https://saketadhau.netlify.com/publication/i2ct/i2ct.pdf}{Embedded Model Predictive Control on Low-Cost Low-End Microcontroller for Motor Speed Control}'', \textit{in the Proceedings of International Conference for Convergence in Technology (I$ 2 $CT)}, IEEE, Mangalore, India, $ 2018 $.	
 	\end{outerlist}
 \end{rSection}	
-%\vspace{-.05in}
-%------------------------------------------------------------------------------%
-\begin{rSection}{Work Experience}
-%	\vspace{-0mm}
-{\textbf{Bosch Chassis Systems India Pvt. Limited, Chakan, Pune.} \hfill July 2015}
-\begin{outerlist}
-	\item  Worked with the TeF department towards maintenance and predictive safety standards.
-	\item Carried out analysis of Mean Time To Repair (MTTR) and Mean Time Between Repair (MTBR) on the assembly lines.
-\end{outerlist}
-\end{rSection}	
-\vspace{2in}
-%------------------------------------------------------------------------------%
-\begin{rSection}{Awards and Funding}
-%\vspace{-.15in}
-\begin{outerlist}
-	\item Project accepted for presentation in \mt ~Expo'19 \hfill $ 2019 $
-%	\item European Union's (EU) Marie Curie ESR fellowship \hfill 2014 
-	\item Xilinx University Program  -- Development board and Software \hfill $ 2018 $
-%	\item University rector's scholarship for Support of Young Researchers \hfill 2015
-%	\item Best paper award at \textit{Third International Conference on Control, \\Communication and Power Engineering}, Springer, Bangalore, India \hfill 2012
-\end{outerlist}
-\end{rSection}
-%------------------------------------------------------------------------------%
-\begin{rSection}{Technical Expertise}
-%\vspace{-.15in}
-\begin{outerlist}
-%	\item Developer of MATLAB-based \textit{universal number toolbox - \href{https://bitbucket.org/kvasnica/munum}{munum}}
-%	\item Developer of FPGA-based universal number toolbox
-    \item Programming languages: \mt/Simulink, \cp, \cpp, HTML, etc.
-	\item Tools: Vivado, MPLAB,  HDL coder, Visual Studio, LabView etc.
-	\item Toolboxes: System identification toolbox, MPT, Protoip, ACADO Toolkit, CasADi, FORCES, etc.
-	\item Embedded system design using microcontrollers, FPGAs, and PLCs
-	\item Writing, presentation, and drawing: \LaTeX, TikZ, Inkscape, Microsoft office suite
-	\item Version control tools: GitHub, GitLab, Bitbucket.
-%	\item Project management tool: Trello
-\end{outerlist}
-\end{rSection}
-%\vspace{-.1275in}
-
+\vspace{5mm}
 %------------------------------------------------------------------------------%
 \begin{rSection}{Research Interests}
-%	\vspace{-.15in}
-%	Modelling, model predictive control, optimization, embedded systems, and control of large-scale dynamical systems  \\\\
-	\begin{outerlist}       
-	    \item Learning based methods for MPC
-        \item Model predictive control
-        \item Optimization
-		\item Embedded systems
-	\end{outerlist} 
+\begin{tabu} to 1\textwidth {  X[l]  X[l]  }
+1. Machine learning for MPC & 4. Optimization  \\ 
+2. Nonlinear Model predictive control & \\
+3. Embedded systems & \\
+\end{tabu}
 \end{rSection}
-%	\vspace{-.1275in} 
+\vspace{5mm}
 %------------------------------------------------------------------------------%
-\begin{rSection}{Training}
-%	\vspace{-.15in}
+\begin{rSection}{Projects}
 	\begin{outerlist}
-		\item Winter School on Optimization and Optimal Control - A Data-based Approach at COEP, India \hfill $ 2018 $
-		
-		\item Certificate course on embedded systems design, COEP, India \hfill $ 2018 $
-		
-		\item Certificate course on Ethical hacking, COEP, India \hfill $ 2016 $
-		\item Certificate course on Matlab and Simulink, COEP, India \hfill $ 2014 $
-		
+		\item \textbf{Deep Neural Networks based Linear MPC} 
+		\begin{innerlist}
+			\item[--] Trained highly nonlinear and linear models using neural networks, to mimic the original model.
+			\item[--] Neural networks were trained to behave as Linear model predictive controller to reduce the online optimization and guarantee safety. 
+			\item[--] The designed neural network was also implemented on ARM Cortex-M$ 3 $ to prove the usability in embedded devices.
+		\end{innerlist}
+	
+		\item \textbf{Implementation of nonlinear MPC on ARM Cortex-M$ 3 $ and FPGA} 
+		\begin{innerlist}
+			\item[--] Successfully implemented nonlinear MPC on for the first time ARM Cortex-M$ 3 $ and FPGA using GRAMPC and ACADO toolkit
+			\item[--] The performance of NMPC controller was rigorously tested using HIL simulations in \mt 
+			\item[--] Designed framework for easy implementation of NMPC on micro-controllers and FPGA.
+		\end{innerlist}
+	
+		\item \textbf{Linear and explicit MPC on ARM Cortex-M$ 3 $ and FPGA} 
+		\begin{innerlist}
+			\item[--] Implemented Interior Point Method, Active Set Method and KWIK Algorithm for linear MPC on Arm Cortex-M$3$
+			\item[--] Validated the designed MPC on DC motor using HIL simulation for real-time using Simulink coder.
+			\item[--] Implemented Explicit MPC using MPT toolbox, Hybrid toolbox and MATLAB based toolbox on micro-controllers and validated the same on actual plant
+			\item[--] The same framework was also validated and detailed analysis were carried out on FPGA Zedboard.
+		\end{innerlist}
+	
+		\item \textbf{Auto-tuning of PID controller using optimization method} 
+		\begin{innerlist}
+			\item[--] Evaluated optimization algorithm SQP for auto-tuning of PID controller 
+			\item[--] Verified values of $ K_{p}, \; K_{i} $ and $ K_d $ parameters using run-time optimization in \mt/Simulink.
+		\end{innerlist}	
+	
+		\item \textbf{Parameter Estimation and Position control of PMDC motor} 
+		\begin{innerlist}
+			\item[--] Validated PMDC motor model using parameter estimation
+			\item[--] Implemented SQP algorithm in \mt~for parameter estimation
+			\item[--] Implemented and tested PID controller for position and speed control on ARM Cortex-M$ 3 $ micro-controller
+		\end{innerlist}	
+	
+		\item \textbf{System Identification and PID Control} 
+		\begin{innerlist}
+			\item[--] System identification for an unknown DC motor was done using System Identification toolbox of \mt
+			\item[--] Verified the system by passing through various linear and non-linear signals for accurate system model
+			\item[--] PID tuning using Zeigler Nicholas and Cohen-Coon methods for speed control of the DC motor using identified state-space model 
+			\item[--] Implemented PID controller on $8$-bit micro-controller using plain~\cp~code, \mt~based embedded coder and in LabVIEW using toolbox for VISA protocol.
+		\end{innerlist}		
+%		\item \textbf{Signal conditioning for RTD sensor} 
+%		\begin{innerlist}
+%			\item[--] Signal conditioning was done for industrial grade RTD and the temperature was shown using $8051$ microcontroller.
+%			\item[--] Done as a part of mini-project of undergraduate courses.
+%		\end{innerlist}	
+%		\item \textbf{\mt~based ECG using Arduino board} 
+%		\begin{innerlist}
+%			\item[--] real-time ECG was acquired, conditioned using arduino and ADC.
+%			\item[--] \mt~was used for interface to arduino board over serial and as a GUI.
+%		\end{innerlist}		
 	\end{outerlist}
 \end{rSection}
+\vspace{8mm}
+%------------------------------------------------------------------------------%
+\begin{rSection}{Internship Experience}
+	{\textbf{Bosch Chassis Systems India Pvt. Limited, Chakan, Pune.} \hfill \textit{\textbf{June'15 - July'15}}}
+	\begin{outerlist}
+		\item  Worked with the TeF department towards maintenance and predictive safety standards.
+		\item  Carried out analysis of Mean Time To Repair (MTTR) and Mean Time Between Repair (MTBR) on the assembly lines (NOAH, Line $51$, TMC line).
+		\item  Studied advanced braking systems like Anti-lock brake systems (ABS) and electronic stability program (ESP).
+		\item  Studied various kinds of braking systems viz. Mascular-energy braking, power assisted braking system, parking brake system for passenger cars.
+		\item  Studied the working of brake boosters, Tandem master cylinder, design of braking system, brake pedal and braking components.
+	\end{outerlist}
+\end{rSection}
+\vspace{8mm}
+%------------------------------------------------------------------------------%
+\begin{rSection}{Positions of Responsibility}
+	\begin{outerlist}
+		\item \textbf{Co--ordinator for $ 3^{rd} $ Winter School.} \hfill \textit{\textbf{Dec'18}} 
+			\begin{innerlist}
+				\item[--] Served as convener and co--ordinator of \textbf{$ 3^{rd} $ Winter School on Optimization and Optimal Control -- A Data--based Approach} at Embedded Systems Lab, COEP.
+				\item[--] Responsible for organization and management of  more than $50$ candidates.
+			\end{innerlist}
+		\item \textbf{Teaching Assistant.} \hfill \textit{\textbf{July'18--Dec'18}}
+			\begin{innerlist}
+				\item[--] Served as TA for \textbf{Microcontroller Techniques and Its Applications} for undergraduate students.
+				\item[--] Responsible for conducting practicals and tutorials for a class of 60 students.
+			\end{innerlist}	
+		\item \textbf{Teaching Assistant.} \hfill \textit{\textbf{Dec'17}}
+			\begin{innerlist}
+				\item[--] Served as TA for \textbf{Embedded System Design} which was a special course conducted embedded systems lab, COEP.
+				\item[--] Responsible for conducting practicals and tutorials for a class of 20 students.
+			\end{innerlist}	
+		\item \textbf{Graduate Class Representative} \hfill \textit{\textbf{Aug'17--June'19}}
+			\begin{innerlist}
+				\item[--] Served as Class Representative (CR) for masters student, Biomedical engineering $ 2019  $ batch.
+				\item[--] Responsible for various activities, organization and management of students.
+			\end{innerlist}		
+		\item \textbf{Students Placement Cell -- Co--ordinator} \hfill \textit{\textbf{Aug'16--June'17}}
+			\begin{innerlist}
+				\item[--] Co--ordinator at Training and Placement cell in college for undergraduate students. 
+				\item[--] Organizing various training and placements programs for a class of 60 students.
+			\end{innerlist}	
+		\item \textbf{Technical Event Head -- Micromania } \hfill \textit{\textbf{Sep'16}}
+			\begin{innerlist}
+				\item[--] Event head for annual technical fest of the college.
+				\item[--] Responsible for conduct of various events and workshops under the technical event.
+		\end{innerlist}		
+	\end{outerlist}
+\end{rSection}
+\vspace{14mm}
+%------------------------------------------------------------------------------%
+\begin{rSection}{Awards and Funding}
+\begin{outerlist}
+	\item Project accepted for oral presentation in \textbf{\mt ~Expo'19.} \hfill \textit{\textbf{May'19}}
+	\item Student support program for Indian Control Conference -- IIT Delhi. \hfill \textit{\textbf{Jan'19}}
+	\item Xilinx University Program for researchers  -- Pynq development board and software. \hfill \textit{\textbf{Sep'18}}
+\end{outerlist}
+\end{rSection}
+\vspace{20mm}
+%------------------------------------------------------------------------------%
+\begin{rSection}{Skills \& Interests}
 %\vspace{-.15in}
+\begin{outerlist}
+	\item \textbf{General} 
+		\begin{innerlist}
+			\item[--] Nonlinear optimization, model-based control, nonlinear dynamic system modeling. 
+		\end{innerlist}
+	\item \textbf{Programming languages}
+		\begin{innerlist}
+			\item[--] \cp, \cpp, HTML, Python.
+		\end{innerlist}
+	\item \textbf{Tools}
+		\begin{innerlist}
+			\item[--] \mt/Simulink, \LaTeX, TikZ, Inkscape, Microsoft office suite.
+		\end{innerlist}
+	\item \textbf{Development}
+		\begin{innerlist}
+			\item[--] Atmel Studio, Vivado, MPLAB X,  HDL coder, LabView, Arduino IDE, Linux.
+		\end{innerlist}
+	\item \textbf{Toolboxes}
+		\begin{innerlist}
+			\item[--] Protoip, MPT toolbox, ACADO Toolkit, CasADi, FORCES, GRAMPC.
+		\end{innerlist}
+	\item \textbf{Version control tools}
+		\begin{innerlist}
+			\item[--] GitHub, GitLab, Bitbucket.
+		\end{innerlist}
+\end{outerlist}
+\end{rSection}
+\vspace{8mm}
+%------------------------------------------------------------------------------%
+\begin{rSection}{Training}
+	\begin{outerlist}
+		\item $3$ days workshop on Tiva C and MSP$ 430 $ based Embedded System Design.\hfill \textit{\textbf{March'19}}
+		\item Winter School on Optimization and Optimal Control - A Data-based Approach. \hfill \textit{\textbf{Dec'18}}		
+		\item One month Certificate course on embedded systems design. \hfill \textit{\textbf{Dec'17}}		
+		\item Certificate course on Ethical hacking, COEP, India \hfill \textit{\textbf{Sep'16}}
+		\item \mt~\& Simulink for engineers, one month training at COEP. \hfill \textit{\textbf{Dec'15}}		
+	\end{outerlist}
+\end{rSection}
+\vspace{8mm}
 %------------------------------------------------------------------------------%
 \begin{rSection}{Personal Details}
 %	\vspace{-.1275in}
@@ -257,52 +364,19 @@ includemp]{geometry}
 		\item Date of Birth: 29 May 1995 
 	\end{outerlist}
 \end{rSection}
-%\vspace{-.1275in}
+\vspace{8mm}
 %------------------------------------------------------------------------------%
-
-
 \begin{rSection}{Referees}
-%\vspace{-.09in}
-
-\end{rSection}
-%\vspace{8cm}
-%Date: \hspace{9cm} Deepak Ingole
 \begin{tabu} to 1\textwidth {  X[l]  X[l]  }
-
 	\href{https://scholar.google.co.in/citations?user=sKwGRiYAAAAJ}{Prof. Dayaram Sonawane}  &  \href{https://scholar.google.co.in/citations?user=FjehteAAAAAJ}{Dr. Deepak Ingole} \\
-
-	Master's supervisor   & Postdoctoral Researcher  \\
+	HOD \& In-charge,  \href{http://www.coepembeddedlab.com/}{Embedded Systems Lab}   & Postdoctoral Researcher \\
 	Department of Instrumentation and Control,   & \href{https://www.universite-lyon.fr/}{University of Lyon}, \href{https://www.ifsttar.fr/en/welcome/}{IFSTTAR}, \href{https://www.entpe.fr/en}{ENTPE} \\ 
-	\href{http://www.coep.org.in/}{College of Engineering, Pune}, India - $ 411005 $ &  Vaulx-en-Velin, France - $ 69120 $  \\
-	\Email{~\email{dns.instru@coep.ac.in}}   & 	\Email{~\email{deepak.ingole@ifsttar.fr}} \\
+	\href{http://www.coep.org.in/}{College of Engineering, Pune} -- 411005, INDIA &  Vaulx-en-Velin -- 69120, FRANCE\\
+	\Email{~\email{hod.instru@coep.ac.in}}   & 	\Email{~\email{deepak.ingole@ifsttar.fr}} \\
 	\href{http://www.coep.org.in/mycoep/dnsinstrucoepacin} 
-	{\Mundus~Homepage} & 	\href{ingoledeepak.wordpress.com} 
+	{\Mundus~Homepage} & 	\href{http://www.ingoledeepak.wordpress.com} 
 	{\Mundus~Homepage}  \\
-
 \end{tabu}
+\end{rSection}
 \end{document}
-%%-----------------------------------------------------------------------------%
-%\section{Career \hspace{1mm} Summary}
-%\begin{outerlist}
-%	\item Pursuing PhD in Process Control at Slovak University of Technology in 
-%	Bratislava, Slovakia
-%	\item 
-%	\item Results-oriented professional with one year and three months of 
-%	research-related experience in Mathematical modelling, Model Based 
-%Development 
-%	and Embedded Systems 
-%	
-%	\item Extensive experience in \textsc{matlab}, Simulink, Code Generator, 
-%System Identification Tool Box, Model Predictive Control (MPC) and PID Tool 
-%Box 
-%of \textsc{matlab}
-%	
-%	\item Expertise in developing Mathematical Models of Linear and Nonlinear 
-%control systems and its control using Classical and Advance Control Algorithms 
-%using \textsc{matlab} Coding
-%	
-%	\item Expertise in Verilog, VHDL, Hardware Co-Simulation, System Generator, 
-%Core Generator and IP Core development in \textsc{fpga}
-%	
-%	\item Experience accompanied by M. Tech program and research projects 
-%\end{outerlist}
+%-----------------------------------------------------------------------------%
