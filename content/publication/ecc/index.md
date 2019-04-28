@@ -3,7 +3,7 @@ title = "Implementation and Analysis of Nonlinear Model Predictive Controller on
 date = 2019-02-17T23:44:37+05:30
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Adhau S", "Patil S", "Ingole D", "Sonawane D"]
+authors = ["Saket Adhau", "Sayli Patil", "Deepak Ingole", "Dayaram Sonawane"]
 
 # Publication type.
 # Legend:
@@ -42,7 +42,7 @@ tags = ["NMPC"]
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-#   projects = ["internal-project"]
+   projects = ["nmpc-fpga"]
 
 # Links (optional).
 #url_pdf = ""
