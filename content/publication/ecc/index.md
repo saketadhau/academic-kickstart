@@ -27,7 +27,7 @@ abstract = "Today, various nonlinear programming problem (NLP) solvers and C/C++
 
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "10.13140/RG.2.2.23632.15365"
 
 # Is this a featured publication? (true/false)
 featured = true
