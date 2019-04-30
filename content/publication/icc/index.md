@@ -54,7 +54,7 @@ tags = []
 
 # Links (optional).
 #url_pdf = ""
-url_preprint = "https://saketadhau.netlify.com/publication/icc/icc.pdf"
+#url_preprint = "https://saketadhau.netlify.com/publication/icc/icc.pdf"
 url_code = ""
 url_dataset = ""
 url_project = ""

@@ -1,7 +1,7 @@
 +++
 # Experience widget.
 widget = "experience"  # Do not modify this line!
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 
 title = "Experience"
 subtitle = ""
@@ -19,27 +19,33 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  title = "Intern"
+  company = "Bosch Chassis Systems Pvt. Ltd."
+  company_url = "https://www.bosch.in/our-company/bosch-in-india/"
+  location = "Chakan, Pune."
+  date_start = "2015-07-01"
+  date_end = "2015-08-01"
   description = """
-  Responsibilities include:
+  Work Done:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Worked with the TeF department towards maintenance and predictive safety standards.
+  * Carried out analysis of Mean Time To Repair (MTTR) and Mean Time Between Repair
+(MTBR) on the assembly lines (NOAH, Line 51, TMC line).
+  * Studied advanced braking systems like Anti-lock brake systems (ABS) and electronic stability
+program (ESP).
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
-
+  title = "Teaching Assistant"
+  company = "College of Engineering, Pune"
+  company_url = "http://www.coep.org.in/"
+  location = "Pune, India."
+  date_start = "2018-07-01"
+  date_end = "2019-07-31"
+  description = """
+  Taught Undergratuate Students:
+  
+  * Microcontroller and its Applications
+  * Embedded Systems Design
+  """
 +++
