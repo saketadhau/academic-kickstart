@@ -43,7 +43,7 @@ program (ESP).
   date_start = "2018-07-01"
   date_end = "2019-07-31"
   description = """
-  Taught Undergratuate Students:
+  Teaching Assistant for Undergraduate Students:
   
   * Microcontroller and its Applications
   * Embedded Systems Design
