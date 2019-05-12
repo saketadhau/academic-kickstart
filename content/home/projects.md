@@ -29,8 +29,8 @@ subtitle = ""
     tag = "Deep Learning"
   
   [[content.filter_button]]
-    name = "NMPC"
-     tag = "NMPC"
+    name = "MPC"
+     tag = "MPC"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
