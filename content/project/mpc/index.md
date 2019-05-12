@@ -10,7 +10,7 @@ summary = "Embedded Implementation of Model Prerdictive Control"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["NMPC"]
+tags = ["MPC"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
