@@ -3,10 +3,10 @@
 # This section displays recent talks from `content/talk/`.
 
 widget = "pages"  # Do not modify this line!
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
-title = "Recent & Upcoming Talks"
+title = "Recent Talks"
 subtitle = ""
 
 [content]
@@ -53,7 +53,7 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
+  # image = "icon.png"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).

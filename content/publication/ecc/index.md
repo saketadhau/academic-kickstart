@@ -42,7 +42,7 @@ tags = ["NMPC"]
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-   projects = ["nmpc-fpga"]
+   projects = ["mpc"]
 
 # Links (optional).
 #url_pdf = ""
