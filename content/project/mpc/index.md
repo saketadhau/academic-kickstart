@@ -1,12 +1,12 @@
 +++
 # Project title.
-title = "Model Prerdictive Control"
+title = "Model Predictive Control"
 
 # Date this page was created.
 date = 2016-04-27T00:00:00
 
 # Project summary to display on homepage.
-summary = "Embedded Implementation of Model Prerdictive Control"
+summary = "Embedded Implementation of Model Predictive Control"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
