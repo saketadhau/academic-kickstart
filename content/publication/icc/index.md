@@ -27,7 +27,7 @@ abstract = "It is well-known that the real-time implementation of MPC is cumbers
 summary = ""
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "10.1109/INDIANCC.2019.8715619"
 
 # Is this a featured publication? (true/false)
 featured = false
@@ -53,7 +53,7 @@ tags = []
 #   slides = "example-slides"
 
 # Links (optional).
-#url_pdf = ""
+url_pdf = "https://ieeexplore.ieee.org/abstract/document/8715619"
 #url_preprint = "https://saketadhau.netlify.com/publication/icc/icc.pdf"
 url_code = ""
 url_dataset = ""
