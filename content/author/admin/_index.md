@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Postgraduate Student - Control Systems"
+role = "Control Systems"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -95,8 +95,8 @@ user_groups = ["Researchers", "Visitors"]
 +++
 
 I am a Controls engineer with a high interest and focus on embedded devices and predictive control systems.
-I am pursuing a Master’s degree within Instrumentation and Control Engineering from College of Engineering, Pune where I am currently working on my thesis, Learning Based Model Predicitve Control. I am associated with the  <a href="http://www.coepembeddedlab.com/">Embedded Systems Lab</a> working under the guidance of <a href="http://scholar.google.co.in/citations?user=sKwGRiYAAAAJ&hl=en">Dr. D. N. Sonawane.</a> 
-My main interests can be summarized as embedded devices and control systems, eg. Model Predicitve Control. I am strong at solving complex problems and computer programming. I got advanced skills in C, C++, Matlab and Simulink and I am competent with modelling and simulations of linear and nonlinear models.
+I have a Master’s degree in Instrumentation and Control Engineering from College of Engineering, Pune. My thesis was Learning Based Model Predicitve Control. I am associated with the  <a href="http://www.coepembeddedlab.com/">Embedded Systems Lab</a> working under the guidance of <a href="http://scholar.google.co.in/citations?user=sKwGRiYAAAAJ&hl=en">Dr. D. N. Sonawane.</a> 
+My main interests can be summarized as embedded devices and control systems, Model Predicitve Control. I am strong at solving complex problems and computer programming. I have got advanced skills in C, C++, Matlab and Simulink and I am competent with modelling and simulations of linear and nonlinear models.
 
 
 
