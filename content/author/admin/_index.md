@@ -13,7 +13,7 @@ role = "Control Systems"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Norwegiean Universiyty of Science and Technology, (NTNU)", url = "https://www.ntnu.edu/" } ]
+organizations = [ { name = "Norwegian University of Science and Technology, (NTNU)", url = "https://www.ntnu.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -94,10 +94,10 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-I am a Controls engineer with a high interest and focus on embedded devices and predictive control systems.
-I have a Master’s degree in Instrumentation and Control Engineering from College of Engineering, Pune. My thesis was Learning Based Model Predicitve Control. I am associated with the  <a href="http://www.coepembeddedlab.com/">Embedded Systems Lab</a> working under the guidance of <a href="http://scholar.google.co.in/citations?user=sKwGRiYAAAAJ&hl=en">Dr. D. N. Sonawane.</a> 
-My main interests can be summarized as embedded devices and control systems, Model Predicitve Control. I am strong at solving complex problems and computer programming. I have got advanced skills in C, C++, Matlab and Simulink and I am competent with modelling and simulations of linear and nonlinear models.
 
+I am a Ph.D. candidate (Stipendiat) at the Norwegian University of  Science and Technology, (NTNU). I am working on the project "Intelligent use of data for process optimization using machine learning" which is financed by the Norwegian research council through the IKTPLUSS program.  I am working under the supervision of Sigurd Skogestad. 
+I have a Master’s degree in Instrumentation and Control Engineering from College of Engineering, Pune. My research interests include machine learning, optimization, model predictive control, embedded systems, and process control.
+I am strong at solving complex problems and computer programming. I have got advanced skills in C, C++, Matlab and Simulink and I am competent with modelling and simulations of linear and nonlinear models.
 
 
 
