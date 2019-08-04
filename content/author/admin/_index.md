@@ -13,7 +13,7 @@ role = "Control Systems"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "College of Engineering, Pune", url = "http://www.coep.org.in/" } ]
+organizations = [ { name = "Norwegiean Universiyty of Science and Technology, (NTNU)", url = "https://www.ntnu.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -29,7 +29,7 @@ interests = [
 ]
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+#   Set this to `[]` or comment out  if you are not using People widget.
 user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
