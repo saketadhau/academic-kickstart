@@ -33,10 +33,10 @@ interests = [
 user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
-#[[education.courses]]
-#  course = "PhD in Artificial Intelligence"
-#  institution = "Stanford University"
-#  year = 2012
+[[education.courses]]
+  course = "Ph.D. in Procecss Optimization"
+  institution = "Norwegian University of Science and Technology"
+ # year = 2012
 
 [[education.courses]]
   course = "M.Tech. in Instrumentation and Control"
@@ -95,9 +95,12 @@ user_groups = ["Researchers", "Visitors"]
 +++
 
 
-I am a Ph.D. candidate (Stipendiat) at the Norwegian University of  Science and Technology, (NTNU). I am working on the project "Intelligent use of data for process optimization using machine learning" which is financed by the Norwegian research council through the IKTPLUSS program.  I am working under the supervision of Sigurd Skogestad. 
-I have a Master’s degree in Instrumentation and Control Engineering from College of Engineering, Pune. My research interests include machine learning, optimization, model predictive control, embedded systems, and process control.
-I am strong at solving complex problems and computer programming. I have got advanced skills in C, C++, Matlab and Simulink and I am competent with modelling and simulations of linear and nonlinear models.
+I am a Ph.D. candidate at the Norwegian University of  Science and Technology, (NTNU). I will be working on the project "Intelligent use of data for process optimization using machine learning" which is financed by the Norwegian research council through the IKTPLUSS program. 
+
+
+# I am working under the supervision of Sigurd Skogestad. 
+#I have a Master’s degree in Instrumentation and Control Engineering from College of Engineering, Pune. My research interests include machine learning, optimization, model predictive control, embedded systems, and process control.
+#I am strong at solving complex problems and computer programming. I have got advanced skills in C, C++, Matlab and Simulink and I am competent with modelling and simulations of linear and nonlinear models.
 
 
 
