@@ -35,7 +35,7 @@ user_groups = ["Researchers", "Visitors"]
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "Currently pursuing Ph.D. in Procecss Optimization"
-  institution = "Norwegian University of Science and Technology, url = "https://www.ntnu.edu/""
+  institution = "Norwegian University of Science and Technology"
  # year = 2012
 
 [[education.courses]]
@@ -95,4 +95,4 @@ user_groups = ["Researchers", "Visitors"]
 +++
 
 
-I am a Ph.D. candidate at the Norwegian University of  Science and Technology, (NTNU) under the supervision of Sigurd Skogestad. I will be working on the project "Intelligent use of data for process optimization using machine learning" which is financed by the Norwegian research council through the IKTPLUSS program. 
+I am currently a Ph.D. candidate at the Norwegian University of  Science and Technology, (NTNU) under the supervision of Sigurd Skogestad. I will be working on the project "Intelligent use of data for process optimization using machine learning" which is financed by the Norwegian research council through the IKTPLUSS program. 
