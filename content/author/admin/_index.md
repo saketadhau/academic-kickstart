@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Control Systems"
+role = "Ph.D Candidate"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -23,9 +23,9 @@ email = "saketadhau@live.com"
 
 # List (academic) interests or hobbies
 interests = [
-  "Deep Neural Networks for MPC",
-  "Model Predictive Control",
-  "Optimization"
+  "Machine Learning for MPC",
+  "Optimization",
+  "Process Control"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -34,7 +34,7 @@ user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Ph.D. in Procecss Optimization"
+  course = "Currently pursuing Ph.D. in Procecss Optimization"
   institution = "Norwegian University of Science and Technology"
  # year = 2012
 
@@ -95,4 +95,4 @@ user_groups = ["Researchers", "Visitors"]
 +++
 
 
-I am a Ph.D. candidate at the Norwegian University of  Science and Technology, (NTNU). I will be working on the project "Intelligent use of data for process optimization using machine learning" which is financed by the Norwegian research council through the IKTPLUSS program. 
+I am a Ph.D. candidate at the Norwegian University of  Science and Technology, (NTNU) under the supervision of Sigurd Skogestad. I will be working on the project "Intelligent use of data for process optimization using machine learning" which is financed by the Norwegian research council through the IKTPLUSS program. 
