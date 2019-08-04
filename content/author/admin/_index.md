@@ -35,7 +35,7 @@ user_groups = ["Researchers", "Visitors"]
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "Currently pursuing Ph.D. in Procecss Optimization"
-  institution = "Norwegian University of Science and Technology"
+  institution = "Norwegian University of Science and Technology, url = "https://www.ntnu.edu/""
  # year = 2012
 
 [[education.courses]]
