@@ -95,4 +95,4 @@ user_groups = ["Researchers", "Visitors"]
 +++
 
 
-I am currently a Ph.D. candidate at the Norwegian University of  Science and Technology, (NTNU) under the supervision of Sigurd Skogestad. I will be working on the project "Intelligent use of data for process optimization using machine learning" which is financed by the Norwegian research council through the IKTPLUSS program. 
+I am currently a Ph.D. candidate at the Norwegian University of  Science and Technology, (NTNU) under the supervision of Sigurd Skogestad. I will be working on the project "Intelligent use of data for process optimization using machine learning".

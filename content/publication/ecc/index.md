@@ -27,7 +27,7 @@ abstract = "Today, various nonlinear programming problem (NLP) solvers and C/C++
 
 
 # Digital Object Identifier (DOI)
-doi = "10.13140/RG.2.2.23632.15365"
+doi = "10.23919/ECC.2019.8796118"
 
 # Is this a featured publication? (true/false)
 featured = true
@@ -45,8 +45,8 @@ tags = ["MPC"]
    projects = ["mpc"]
 
 # Links (optional).
-url_pdf = "DOI: 10.13140/RG.2.2.23632.15365"
-#url_preprint = "https://saketadhau.netlify.com/publication/ecc/ecc.pdf"
+url_pdf = "https://ieeexplore.ieee.org/document/8796118"
+# url_preprint = "https://saketadhau.netlify.com/publication/ecc/ecc.pdf"
 #url_code = "#"
 #url_dataset = "#"
 #url_project = ""
