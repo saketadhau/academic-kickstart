@@ -95,4 +95,4 @@ user_groups = ["Researchers", "Visitors"]
 +++
 
 
-I am currently a Ph.D. candidate at the Norwegian University of  Science and Technology, (NTNU) under the supervision of Sigurd Skogestad. I will be working on the project <i>"Surrogate optimizers for computationally robust and fast online optimization".</i>
+My current research focuses on <i>"Surrogate optimizers for computationally robust and fast online optimization."</i> I am persuing my Ph.D. under the supervision of Prof. Sigurd Skogestad co-supervised by Dinesh Krishnamoorthy. 
