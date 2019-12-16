@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Ph.D Candidate"
+role = "Ph.D Stipendiat"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -19,7 +19,7 @@ organizations = [ { name = "Norwegian University of Science and Technology, (NTN
 bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "saketadhau@live.com"
+email = "saket.adhau@ntnu.com"
 
 # List (academic) interests or hobbies
 interests = [
@@ -34,7 +34,7 @@ user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Currently pursuing Ph.D. in Procecss Optimization"
+  course = "Currently pursuing Ph.D. in Process Optimization"
   institution = "Norwegian University of Science and Technology"
  # year = 2012
 
@@ -56,7 +56,7 @@ user_groups = ["Researchers", "Visitors"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:saketadhau@live.com"  # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:saket.adhau@ntnu.com"  # For a direct email link, use "mailto:test@example.org".
 
 
 [[social]]
@@ -64,10 +64,9 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "fab"
   link = "https://www.linkedin.com/in/saketadhau/"  
 
-[[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.co.in/citations?user=rUQxY7QAAAAJ&hl=en"
+#  icon = "google-scholar"
+#  icon_pack = "ai"
+#  link = "https://scholar.google.co.in/citations?user=rUQxY7QAAAAJ&hl=en"
 
  [[social]]
   icon = "researchgate"
@@ -95,4 +94,4 @@ user_groups = ["Researchers", "Visitors"]
 +++
 
 
-My current research focuses on <i>"Surrogate optimizers for computationally robust and fast online optimization."</i> I am persuing my Ph.D. under the supervision of Prof. Sigurd Skogestad co-supervised by Dinesh Krishnamoorthy. 
+My project, "Surrogate optimizers for computationally robust and fast online optimization", is a part of IKTPLUSS, supervised by <a href="https://folk.ntnu.no/skoge/">Prof. Sigurd Skogestad</a>. 
