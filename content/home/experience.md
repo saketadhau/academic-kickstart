@@ -48,4 +48,16 @@ program (ESP).
   * Microcontroller and its Applications
   * Embedded Systems Design
   """
+
+  [[experience]]
+  title = "Trainee Engineer"
+  company = "Aker Powergas Subsea Private Limited, Pune"
+  company_url = "https://www.akersolutions.com/contact/offices/asia-pacific/india/pune/"
+  location = "Pune, India."
+  date_start = "2019-06-05"
+  date_end = "2019-08-31"
+  description = """
+  
+  * Application Engineering Department - Software Controls
+  """
 +++
